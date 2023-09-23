@@ -1,5 +1,50 @@
+/* Fonts */
+@font-face {
+    font-family: "Maven Pro";
+    src: url(../fonts/MavenPro-ExtraBold.woff2) format("woff2"),
+        url(../fonts/MavenPro-ExtraBold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Maven Pro";
+    src: url(../fonts/MavenPro-Regular.woff2) format("woff2"),
+        url(../fonts/MavenPro-Regular.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Maven Pro";
+    src: url(../fonts/MavenPro-Medium.woff2) format("woff2"),
+        url(../fonts/MavenPro-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Maven Pro";
+    src: url(../fonts/MavenPro-Bold.woff2) format("woff2"),
+        url(../fonts/MavenPro-Bold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Css variables */
+:root {
+    --grey-black: #230f0f;
+    --pink: #dc4298;
+    --brown: #874444;
+    --grey: #777795;
+    --blue: #086bed;
+}
+
 html {
-    box-sizing: border-box;
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -7,7 +52,7 @@ html {
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,24 +62,36 @@ body {
     padding: 0;
     margin: 0;
     font-size: 16px;
-    font-family: "Arial", sans-serif;
-    line-height: 1.5;
-    background-color: #fff;
-    color: #222;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+    font-family: "Maven Pro","Arial", sans-serif;
 }
 
 .container {
     width: 100%;
     max-width: 1200px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Header */
+.site__header {
+}
+.site__header-container {
+}
+.site__header-link {
+}
+.logo__img {
+}
+.sitenav {
+}
+.sitenav__list {
+}
+.sitenav__item {
+}
+.sitenav__link {
+}
+.site__header-btn {
 }
 
 /* Main content */
