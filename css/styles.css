@@ -76,22 +76,62 @@ body {
 
 /* Header */
 .site__header {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .site__header-container {
+    display: flex;
+    align-items: center;
 }
 .site__header-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 500;
+    color: #313273;
+    margin-right: auto;
 }
+.site__header-link:hover {
+    opacity: 0.6;
+}
+
 .logo__img {
+    width: 74px;
+    height: 45px;
 }
-.sitenav {
-}
+
 .sitenav__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
 }
-.sitenav__item {
+.sitenav__item:not(:last-child) {
+    margin-right: 45px;
 }
 .sitenav__link {
+    color: var(--grey-black);
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.sitenav__link:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }
 .site__header-btn {
+    font-weight: bold;
+    color: var(--pink);
+    text-decoration: none;
+    border: 1px solid var(--pink);
+    padding: 13px 30px;
+    border-radius: 5px;
+}
+
+.site__header-btn:hover {
+    color: var(--grey-black);
+    border-color: var(--grey-black);
 }
 
 /* Main content */
