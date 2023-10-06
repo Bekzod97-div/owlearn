@@ -341,3 +341,51 @@ body {
 .about-us__content__link {
     padding: 20px 32px;
 }
+
+/* Course section */
+.course__container{
+
+}
+.course__header {
+    display: flex;
+    align-items: center;
+    margin-top: 57px;
+    margin-bottom: 50px;
+}
+.course__header__title {
+    margin-right: auto;
+    color: #090d2c;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.course__link {
+    text-decoration: none;
+    color: var(--pink);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    border: 1px solid var(--pink);
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.course__link:hover {
+    color: var(--brown);
+    border-color: var(--brown);
+}
+
+
+.course__header__link {
+    padding: 14px 40px;
+}
+
+.coursenav {
+}
+.coursenav__list {
+}
+.coursenav__item {
+}
+.coursenav__link {
+}
